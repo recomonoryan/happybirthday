@@ -1,0 +1,124 @@
+.gif-background{
+	background-image: url("http://www.godishemail.com/Confetti.gif");
+	background-size: cover;
+	font-family: 'Yesteryear', cursive;
+}
+
+.img-circle, #bday-greetings{
+	display: none;
+}
+
+#intro, #slide-pictures{
+	text-align: center; 
+	width: 100%;
+}
+
+#instruct{
+	font-size: 2vw; 
+	font-family:'Mogra', cursive;
+}
+
+#heart{
+	margin-top: 30px;
+}
+
+#arrow{
+	font-size: 4vw; 
+	position: relative; 
+	margin-bottom: 5px; 
+	margin-top: 5px;
+}
+
+.img-circle{
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	border: 8px solid #ff66cc;
+	overflow: hidden;
+	opacity: .9;
+}
+
+#slide-pictures{
+	text-align: center;
+	position: relative;
+}
+
+#bday-greetings{
+	color: #ff66cc;
+	font-size: 4em;
+}
+
+#volume{
+	opacity: .8;
+	font-size: 1.3em;
+}
+
+#volume:hover, #tap-letter:hover{
+	cursor: pointer;
+}
+
+#heart:hover, #heart:focus{
+	cursor: pointer;
+}
+
+@media(max-width: 600px){
+	.gif-background{
+		background-size: 100% 100%;
+	}
+	.img-circle{
+		width: 80%;
+		height: 80%;
+	}
+
+	#bday-greetings{
+		font-size: 3em;
+	}
+
+	#instruct{
+		font-size: 2em;
+	}
+
+	#arrow{
+		font-size: 3em;
+	}
+
+	#heart{
+		width: 70%;
+		height: 70%;
+	}
+}
+
+@media(max-width: 767px){
+	#instruct{
+		font-size: 2em;
+	}
+
+	#arrow{
+		font-size: 3em;
+	}
+
+	.img-circle{
+		width: 70%;
+		height: 70%;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	#instruct{
+		font-size: 2em;
+	}
+
+	#arrow{
+		font-size: 3em;
+	}
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+	#instruct{
+		font-size: 2em;
+	}
+
+	#arrow{
+		font-size: 3em;
+	}
+}
